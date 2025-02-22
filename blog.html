@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Blog</h1>
+    <p>Welcome to my blog! Here, I share my thoughts and experiences.</p>
+  </header>
+
+  <main>
+    <article>
+      <h2>Blog Post Title 1</h2> <!-- h2 tag is used to define the heading of the content -->
+      <p>Posted on <time datetime="2023-10-01">October 1, 2023</time></p>
+      <p>This is the content of the first blog post.</p>
+    </article>
+
+    <article><!-- article tag is used to define the article content -->
+      <h2>Blog Post Title 2</h2>
+      <p>Posted on <time datetime="2023-10-05">October 5, 2023</time></p>
+      <p>This is the content of the second blog post.</p>
+    </article>
+  </main>
+<!--- dropdown  -->
+<div class="form-group">
+    <label for="courses">courses</label>
+    <select name="course" id="course">
+        <option value="select">Select a course</option>
+        <option value="web design">web design</option>
+        <option value="web development">web development</option>
+        <option value="graphic design">graphic design</option>
+        <option value="ui/ux design">ui/ux design</option>
+        <option value="data science">data science</option>
+        <option value="machine learning">machine learning</option>
+        <option value="artificial intelligence">artificial intelligence</option>
+        <option value="cyber security">cyber security</option>
+        <option value="networking">networking</option>
+        <option value="digital marketing">digital marketing</option>
+    </select>
+</div>
+
+<!--- radio button  -->
+<div class="form-group">
+    <p>Subscriptions plan:</p>
+    <label for="basic">Basic</label>
+    <input type="radio" name="subscription" id="basic" value="basic">
+    <label for="pro">Pro</label>
+    <input type="radio" name="subscription" id="pro" value="pro">
+    <label for="premium">Premium</label>
+    <input type="radio" name="subscription" id="premium" value="premium">
+</div>
+
+<!--- checkbox  -->
+    <div class="form-group">
+        <p>Interest:</p>
+        <label for="web-design">Web Design</label>
+        <input type="checkbox" name="interest" id="web-design" value="web-design">
+        <label for="web-development">Web Development</label>
+        <input type="checkbox" name="interest" id="web-development" value="web-development">
+        <label for="graphic-design">Graphic Design</label>
+        <input type="checkbox" name="interest" id="graphic-design" value="graphic-design">
+        <label for="ui-ux-design">UI/UX Design</label>
+        <input type="checkbox" name="interest" id="ui-ux-design" value="ui-ux-design">
+        <label for="data-science">Data Science</label>
+        <input type="checkbox" name="interest" id="data-science" value="data-science">
+        <label for="machine-learning">Machine Learning</label>
+        <input type="checkbox" name="interest" id="machine-learning" value="machine-learning">
+        <label for="artificial-intelligence">Artificial Intelligence</label>
+    </div>
+
+  <aside><!-- aside tag is used to define the content aside from the content -->
+    <h3>About Me</h3>
+    <p>I'm a web developer who loves writing about technology and design.</p>
+  </aside>
+
+  <footer>
+    <p>&copy; 2023 My Blog. All rights reserved.</p>
+  </footer>
+</body>
+</html>
